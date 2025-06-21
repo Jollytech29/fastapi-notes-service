@@ -1,0 +1,32 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg
+*.egg-info
+dist/
+build/
+*.so
+.idea/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+*.sqlite3
+*.db
+*.db-*
+
+*.log
+logs/
+
+.env
+.flaskenv
+
+docker-compose.override.yml # Если у вас есть локальные переопределения Docker Compose
+
+*.iml # IntelliJ IDEA files
+.DS_Store # macOS specific files
+Thumbs.db # Windows specific files
